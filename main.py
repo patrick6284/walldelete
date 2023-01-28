@@ -4,7 +4,7 @@ import json
 cookie = ""
 group_ids = []
 
-with open("~/wallbot_json#data.json") as f:
+with open("/root/wallbot_json/data.json") as f:
     data = json.load(f)
     cookie = data["cookie"]
     group_ids = data["group_ids"]
